@@ -5,7 +5,7 @@
 }
 
 .content{
-	width: 80%;
+	width: 65%;
 	margin: 0 auto;
 }
 
@@ -23,18 +23,17 @@ textarea{
 }
 
 #intro{
-	width: 100%;
 	background: -webkit-linear-gradient(rgb(236, 146, 10),rgba(218, 182, 7, 0.6)),url()
 }
 
 .intro_content{
-	width: 80%;
+	width: 65%;
 	margin: 0 auto;
 	height: 350px;
 }
 
 .navbar h1{
-	float: left;
+	float: left;		
 }
 
 .navbar ul{
@@ -59,9 +58,9 @@ textarea{
 	padding-bottom: 20px
 }
 
-#about img{
-	float: left;
-	margin-right: 20px;
+#about img,p{
+	display: inline-block;
+	/*margin-right: 20px;*/
 }
 
 #about:after{
@@ -82,5 +81,6 @@ input[type='submit']{
 	border-radius: 2px;
 	border-style: none;
 	background-color: #2e81c3;
-	color: white
+	color: white;
+	font-size: 18px;
 }
