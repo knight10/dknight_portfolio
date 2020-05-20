@@ -1,4 +1,86 @@
 *{
-	font-family: 'Berlin Sans FB';
-	font-weight: normal;
+	font-family: 'helvetica';
+	margin: 0;
+	padding: 0;
+}
+
+.content{
+	width: 80%;
+	margin: 0 auto;
+}
+
+input[type='email'], textarea{
+	display: block;
+	padding: 3px;
+	width: 30%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+textarea{
+	height: 100px;
+	width: 50%
+}
+
+#intro{
+	width: 100%;
+	background: -webkit-linear-gradient(rgb(236, 146, 10),rgba(218, 182, 7, 0.6)),url()
+}
+
+.intro_content{
+	width: 80%;
+	margin: 0 auto;
+	height: 350px;
+}
+
+.navbar h1{
+	float: left;
+}
+
+.navbar ul{
+	list-style-type: none;
+	float: right;
+}
+
+.navbar ul li{
+	display: inline-block;
+	padding: 12px;
+}
+
+.navbar:after{
+	content: '';
+	height: 60px;
+	display: block;
+	clear: both;
+}
+
+#about, #project, #contact{
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+
+#about img{
+	float: left;
+	margin-right: 20px;
+}
+
+#about:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#projects{
+	height: 300px;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 125px;
+}
+
+input[type='submit']{
+	padding: 5px;
+	border-radius: 2px;
+	border-style: none;
+	background-color: #2e81c3;
+	color: white
 }
