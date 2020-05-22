@@ -24,7 +24,8 @@ textarea{
 }
 
 #intro{
-	background-color: cornflowerblue;
+	background: linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5)),url(../img/bg.jpg) no-repeat center center;
+	background-size: cover;
 }
 
 .intro_content{
@@ -45,7 +46,8 @@ textarea{
 }
 
 .navbar h1{
-	float: left;		
+	float: left;	
+	color: chocolate	
 }
 
 .navbar ul{
@@ -115,5 +117,10 @@ input[type='submit']{
 		width: 100%;
 		margin-top: 5px;
 		margin-bottom: 5px;
+	}
+
+	#intro{
+		background: linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5)),url(../img/bg.jpg) no-repeat center center;
+		background-size: contain;
 	}
 }
