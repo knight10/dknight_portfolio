@@ -1,12 +1,12 @@
 *{
-	font-family: 'helvetica';
+	font-family: 'Yu Gothic';
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
 .content{
-	width: 65%;
+	width: 70%;
 	margin: 0 auto;
 }
 
@@ -24,13 +24,24 @@ textarea{
 }
 
 #intro{
-	background: -webkit-linear-gradient(rgb(236, 146, 10),rgba(218, 182, 7, 0.6)),url()
+	background-color: cornflowerblue;
 }
 
 .intro_content{
-	width: 65%;
+	width: 70%;
 	margin: 0 auto;
 	height: 350px;
+	text-align: center;
+}
+
+.intro_content > h1{
+	letter-spacing: 5px;
+	word-spacing: 20px;
+	color: white;
+}
+
+.intro_content h1 span{
+	color: chocolate
 }
 
 .navbar h1{
@@ -45,6 +56,7 @@ textarea{
 .navbar ul li{
 	display: inline-block;
 	padding: 12px;
+    color: white;                                       
 }
 
 .navbar:after{
@@ -55,13 +67,13 @@ textarea{
 }
 
 #about, #project, #contact{
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 20px
 }
 
-#about img,p{
-	display: inline-block;
-	/*margin-right: 20px;*/
+#about img{
+	float: left;
+	margin-right: 20px;
 }
 
 #about:after{
