@@ -109,4 +109,11 @@ input[type='submit']{
 		height: 350px;
 		text-align: center;
 	}
+
+	input[type='email'], textarea{
+		display: block;
+		width: 100%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
 }
