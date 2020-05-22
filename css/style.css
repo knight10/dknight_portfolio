@@ -97,3 +97,16 @@ input[type='submit']{
 	color: white;
 	font-size: 18px;
 }
+
+@media screen and (max-width: 450px){
+	.content{
+		width: 90%;
+	}
+
+	.intro_content{
+		width: 90%;
+		margin: 0 auto;
+		height: 350px;
+		text-align: center;
+	}
+}
