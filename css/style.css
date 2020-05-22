@@ -118,9 +118,4 @@ input[type='submit']{
 		margin-top: 5px;
 		margin-bottom: 5px;
 	}
-
-	#intro{
-		background: linear-gradient(rgba(0,0,0, .5),rgba(0,0,0, .5)),url(../img/bg.jpg) no-repeat center center;
-		background-size: contain;
-	}
 }
