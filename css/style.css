@@ -85,17 +85,19 @@ textarea{
 
 #projects{
 	height: 300px;
+	width: 90%;
+	margin: 40px auto;
 	box-sizing: border-box;
-	padding-top: 125px;
+	padding-top: 100px;
 }
 
 #projects div img{
 	float: left;
-	width: 25%;
+	/*width: 25%;*/
 }
 
 #projects div div{
-	width: 70%;
+	/*width: 70%;*/
 	float: right;
 }
 
@@ -105,7 +107,7 @@ textarea{
 	font-weight: bold;
 }
 
-#projects div:after{
+div.guessingGame img:after{
 	content: '';
 	display: block;
 	clear: both;
