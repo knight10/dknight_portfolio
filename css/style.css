@@ -10,17 +10,16 @@
 	margin: 0 auto;
 }
 
-input[type='email'], textarea{
+input[type='email'], textarea {
 	display: block;
 	padding: 3px;
-	width: 30%;
+	width: 70%;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
 textarea{
 	height: 100px;
-	width: 50%
 }
 
 #intro{
@@ -87,8 +86,29 @@ textarea{
 #projects{
 	height: 300px;
 	box-sizing: border-box;
-	text-align: center;
 	padding-top: 125px;
+}
+
+#projects div img{
+	float: left;
+	width: 25%;
+}
+
+#projects div div{
+	width: 70%;
+	float: right;
+}
+
+#projects div div a{
+	text-decoration: none;
+	color: cadetblue;
+	font-weight: bold;
+}
+
+#projects div:after{
+	content: '';
+	display: block;
+	clear: both;
 }
 
 input[type='submit']{
@@ -115,5 +135,9 @@ input[type='submit']{
 	input[type='email'], textarea{
 		display: block;
 		width: 100%;
+	}
+
+	.navbar ul {
+		display: none;	
 	}
 }
