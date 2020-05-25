@@ -12,10 +12,11 @@
 
 input[type='email'], textarea {
 	display: block;
-	padding: 3px;
-	width: 70%;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	padding: 2%;
+	width: 46%;
+    margin: 1% 0%;
+    background: none;
+    border: 2px solid #ccc;
 }
 
 textarea{
@@ -23,8 +24,7 @@ textarea{
 }
 
 #intro{
-	background: linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .7)),url(../img/bg.jpg) no-repeat center center;
-	background-size: cover;
+	height: 60vh;
 }
 
 .intro_content{
@@ -37,7 +37,6 @@ textarea{
 .intro_content > h1{
 	letter-spacing: 5px;
 	word-spacing: 20px;
-	color: white;
 }
 
 .intro_content h1 span{
@@ -56,8 +55,7 @@ textarea{
 
 .navbar ul li{
 	display: inline-block;
-	padding: 12px;
-    color: white;                                       
+	padding: 12px;                                      
 }
 
 .navbar:after{
@@ -68,20 +66,35 @@ textarea{
 }
 
 #about, #project, #contact{
-	padding-top: 40px;
+	padding: 20px 0px 20px 0px;
 	padding-bottom: 20px
 }
 
-#about img{
-	float: left;
-	margin-right: 20px;
+#about{
+    text-align: center;
 }
 
+#about >  * {
+	margin: 1%;
+    padding: 1%;
+    display: inline-block;
+}
+
+#about img{
+    width: 20%;
+}
+#about p{
+    width: 70%;
+    text-align: left
+}
+
+/*
 #about:after{
 	content: '';
 	display: block;
 	clear: both;
 }
+*/
 
 #projects{
 	height: 300px;
@@ -115,13 +128,27 @@ div.guessingGame img:after{
 
 input[type='submit']{
 	padding: 5px;
-	border-radius: 2px;
+	border-radius: 5px;
 	border-style: none;
 	background-color: #2e81c3;
 	color: white;
 	font-size: 18px;
 }
 
+.contact_wrapper{
+	width: 100%;
+	background-color: #777;
+}
+#contact{
+    color: white;
+}
+#content{
+	position: relative;
+	z-index: 1;
+	color: white;
+	width: 70%;
+	margin: 0 auto;
+}
 @media screen and (max-width: 450px){
 	.content{
 		width: 90%;
@@ -141,5 +168,9 @@ input[type='submit']{
 
 	.navbar ul {
 		display: none;	
+	}
+	#background{
+		height: 35vh;
+		background-color: #444;
 	}
 }

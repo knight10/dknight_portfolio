@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: cursive;
+}
+
+#background{
+	position: absolute;
+	width: 100%;
+	background-color: #fff;
+	height: 60vh;
+	overflow: hidden;
+	z-index: -1;
+}
+#background *{
+	position: absolute;
+	opacity: 0.5;
+}
+
+.square{
+	background-color: transparent;
+	width: 10%;
+	top:5%;
+	left: 10%;
+	border-radius: 25%;
+	border: 20px solid lightgreen;
+}
+
+.square:before{
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+
+.msquare{
+	background-color: transparent;
+	width: 20%;
+	top: -10%;
+	left: 50%;
+	border-radius: 50%;
+	border: 20px solid #456;
+}
+
+.msquare:before{
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+
+.bsquare{
+	background-color: transparent;
+	width: 20%;
+	top: 50%;
+	left: 90%;
+	/*margin: 25% 0% 0% 70%;*/
+	border-radius: 25%;
+	border: 25px solid #ffdd9e;
+}
+
+.bsquare:before{
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+
+.scircle{
+	background-color: transparent;
+	width: 5%;
+	margin: 15% 0% 0% 30%;
+	border-radius: 50%;
+	border: 10px solid #d654d6;
+}
+
+.scircle:before{
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+
+.mcircle{
+	background-color: transparent;
+	width: 15%;
+	margin: 32% 0% 0% 20%;
+	border-radius: 50%;
+	border: 20px solid #7c8281ee;
+}
+
+.mcircle:before{
+	content: '';
+	display: block;
+	padding-top: 100%;
+}
+
+@media screen and (max-width: 450px) {
+
+	#background{
+		height: 35vh;
+		background-color: #444;
+	}
+}
