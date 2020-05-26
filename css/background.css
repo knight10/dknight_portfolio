@@ -23,7 +23,7 @@
 	top:5%;
 	left: 10%;
 	border-radius: 25%;
-	border: 20px solid lightgreen;
+	border: 0.5em solid lightgreen;
 }
 
 .square:before{
@@ -38,7 +38,7 @@
 	top: -10%;
 	left: 50%;
 	border-radius: 50%;
-	border: 20px solid #456;
+	border: 0.5em solid #456;
 }
 
 .msquare:before{
@@ -54,7 +54,7 @@
 	left: 90%;
 	/*margin: 25% 0% 0% 70%;*/
 	border-radius: 25%;
-	border: 25px solid #ffdd9e;
+	border: 0.7em solid #ffdd9e;
 }
 
 .bsquare:before{
@@ -68,7 +68,7 @@
 	width: 5%;
 	margin: 15% 0% 0% 30%;
 	border-radius: 50%;
-	border: 10px solid #d654d6;
+	border: 0.5em solid #d654d6;
 }
 
 .scircle:before{
@@ -82,7 +82,7 @@
 	width: 15%;
 	margin: 32% 0% 0% 20%;
 	border-radius: 50%;
-	border: 20px solid #7c8281ee;
+	border: 0.5em solid #7c8281ee;
 }
 
 .mcircle:before{
